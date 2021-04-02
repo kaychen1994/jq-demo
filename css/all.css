@@ -1,0 +1,286 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*以上為 css reset*/
+
+/*css開始*/
+.wrap {
+    width: 1000px;
+    margin:0 auto;
+}
+/*header*/
+.header{
+	background-color:#f3f8f4;
+}
+.icon li{
+	float:right;
+}
+.twitter {
+    color: #2b97bb;
+}
+.facebook {
+    color: #3d5788;
+}
+.clear{clear:both;height:0px;}
+
+
+
+
+
+/* logo & 並排式選單*/
+.logo ul {
+    padding-top: 15px;
+    float: right;
+}
+.menu li {
+    
+    float: left;
+    margin-right: 10px;
+}
+.menu li a{
+    display: block;
+    color: #11bd8d;
+    transition: all .3s;
+}
+
+.menu li a:hover {
+    border-bottom: #42d3a9 3px solid;
+    padding-bottom: 15px;
+  }
+
+.menu ul{
+  display: none;
+}
+.banner {
+  margin-top: 20px;
+}
+
+/*content*/
+.content {
+  margin-top: 30px;
+}
+.content li {
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .content-margin {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  /*content-html5*/
+  .html5 {
+    width: 300px;
+    height: 350px;
+    border: 1px solid #e8eaef;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+  }
+  .html5-h3 {
+       
+      margin-bottom: 10px;
+      font-size: 25px;
+      margin-top: 15px;
+  }
+  .html5 img{
+      display:block; 
+      margin:auto;
+  }
+  /*content-rwd*/
+  .rwd {
+    width: 300px;
+    height: 350px;
+    border: 1px solid #e8eaef;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+  }
+  .rwd-h3 {
+      margin-bottom: 10px;
+      font-size: 25px;
+      margin-top: 20px;
+  }
+  .rwd img{
+      display:block; 
+      margin:auto;
+  }
+  /*content-jquery*/
+  .jquery {
+    width: 300px;
+    height: 350px;
+    border: 1px solid #e8eaef;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+  }
+  .jquery-h3 {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  .jquery img{
+      display:block; 
+      margin:auto;
+  }
+  .jquery ul{
+      list-style-position:inside; 
+      list-style-type: disc;
+      line-height:5px;
+  }
+  .lineheight {
+    line-height: 1px;
+  }
+  .li-none {
+    list-style-type:none;
+  }
+  .clearfix {
+   clear:both;height:0px;
+  }
+/*表格*/
+h1{
+    margin-top: 50px;
+    font-size: 35px;
+    text-align:center;
+    font-weight: bold;
+    
+  
+    
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+   
+  }
+  .price th,.price td{
+    border-top: 1px solid #dcdee2;
+    border-bottom: 1px solid #dcdee2;
+  }
+  .price th{
+    padding: 10px;
+    background: #e8eaef;
+    color: black;
+  
+  }
+  .price td{
+    padding: 10px;
+  }
+  .td{
+    color: green;
+  }
+
+/*form*/
+.form {
+    width: 90%px;
+   
+    background: linear-gradient(#00664c,#009771);
+}
+.form h2 {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+
+}
+.form p {
+    color: white;
+}
+.textarea{
+    margin-top: 20px;
+    width: 474px;
+    height: 195px;
+    float: left;
+    margin-left: 15px;
+    
+    
+}
+.botton{
+    background-color: #00cc99;
+    color: white;
+}
+
+.form-input {
+    float: right;
+    margin-bottom: 150px;
+    margin-right: 80px;
+    
+}
+.form-text {
+    margin-top: 10px;
+}
+/*footer*/
+  
+  .footer{
+      margin-top: 30px;
+      
+  }
+
+  
+  .span {
+     color: pink;
+  }
+  .footer-phone {
+    
+    float: right;
+  }
+
+
+  /*start-up*/
+
+  .start-up{
+    margin-left: 40px;
+  }
+
+
+
